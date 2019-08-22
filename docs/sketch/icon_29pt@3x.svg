@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="87px" viewBox="0 0 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>icon_29pt@3x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8126" offset="0%"></stop>
+            <stop stop-color="#FF117E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iOS-App-Icon-Template" transform="translate(-847.000000, -724.000000)" fill="#000000">
+            <rect x="0" y="0" width="2343" height="1162"></rect>
+        </g>
+        <g id="icon_29pt@3x">
+            <g id="Icon">
+                <rect id="Background" fill="url(#linearGradient-1)" x="0" y="0" width="87" height="87"></rect>
+                <g id="Glyph" stroke-width="1" transform="translate(15.802734, 13.423828)">
+                    <polygon id="Head-Base" fill="#FFFFFF" style="mix-blend-mode: overlay;" points="0 0 27.6972656 20.7304688 55.3945312 0 55.3945312 41.4609375 27.6972656 62.1914062 0 41.4609375"></polygon>
+                    <polygon id="Jowl" fill-opacity="0.700000048" fill="#FFFFFF" style="mix-blend-mode: overlay;" points="0 41.4609375 27.6972656 20.7304688 55.3945312 41.4609375 27.6972656 62.1914062"></polygon>
+                    <polygon id="Ears/Nose" fill="#FFFFFF" style="mix-blend-mode: soft-light;" points="0 0 27.6972656 62.1914062 55.3945312 0 27.6972656 20.7304688"></polygon>
+                    <path d="M0,0 L27.6972656,62.1914062 L0,10.1103516 L0,0 Z M55.3945312,0 L55.3945312,10.1103516 L27.6972656,62.1914062 L55.3945312,0 Z" id="Shadows" fill-opacity="0.25" fill="#000000" style="mix-blend-mode: overlay;"></path>
+                </g>
+                <g id="Smooth-Corners" fill="#000000">
+                    <path d="M0.000959461491,62.6502939 C0.0342080008,70.920384 0.930920761,73.992982 2.58732632,77.0901911 C4.27558584,80.2469619 6.75303807,82.7244142 9.9098089,84.4126737 C13.0665797,86.1009332 16.1977837,87 24.8326303,87 L24.8326303,87 L0,87 Z M87,62.1673697 L87,87 L62.1673697,87 C70.8022163,87 73.9334203,86.1009332 77.0901911,84.4126737 C80.2469619,82.7244142 82.7244142,80.2469619 84.4126737,77.0901911 C86.1009332,73.9334203 87,70.8022163 87,62.1673697 L87,62.1673697 Z M87,24.8326303 C87,16.1977837 86.1009332,13.0665797 84.4126737,9.9098089 C82.7244142,6.75303807 80.2469619,4.27558584 77.0901911,2.58732632 C73.9334203,0.899066808 70.8022163,-5.82927592e-16 62.1673697,1.00326799e-15 L87,0 Z M0,0 L24.3497061,0.000959461491 C16.079616,0.0342080008 13.007018,0.930920761 9.9098089,2.58732632 C6.75303807,4.27558584 4.27558584,6.75303807 2.58732632,9.9098089 C0.899066808,13.0665797 -3.88618394e-16,16.1977837 6.68845324e-16,24.8326303 L0,0 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

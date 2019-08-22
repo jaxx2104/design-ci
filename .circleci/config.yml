@@ -26,12 +26,12 @@ jobs:
           name: push export file
           command: |
             git reset --hard HEAD
-            git checkout master
+            git checkout $CIRCLE_BRANCH
             git config user.email "jaxx2104+circleci@users.noreply.github.com"
-            git config user.name "jaxx2104+circleci"
-            git add dist
-            git commit -m 'export image file'
-            git push origin master
+            git config user.name "CircleCI"
+            git add docs
+            git commit -m 'export image file' || true
+            git push -f origin $CIRCLE_BRANCH || true
 workflows:
   version: 2
   export:
