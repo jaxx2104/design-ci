@@ -1,0 +1,42 @@
+version: 2
+jobs:
+  sketch:
+    working_directory: ~/repo
+    macos:
+      xcode: "10.0.0"
+    steps:
+      - checkout
+      - run:
+          name: export sketch file
+          command: |
+            brew cask install sketch
+            /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export artboards src/sketch/*.sketch --formats=jpg,png,svg --output=docs/sketch
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+  push:
+    working_directory: ~/repo
+    macos:
+      xcode: "10.0.0"
+    steps:
+      - attach_workspace:
+          at: .
+      - run:
+          name: push export file
+          command: |
+            git reset --hard HEAD
+            git checkout master
+            git config user.email "jaxx2104+circleci@users.noreply.github.com"
+            git config user.name "jaxx2104+circleci"
+            git add dist
+            git commit -m 'export image file'
+            git push origin master
+workflows:
+  version: 2
+  export:
+    jobs:
+      - sketch
+      - push:
+          requires:
+            - sketch

@@ -1,0 +1,4 @@
+# https://github.com/github/gitignore/blob/master/Rails.gitignore
+
+# mac
+.DS_Store
