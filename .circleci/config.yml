@@ -26,12 +26,12 @@ jobs:
           name: push export file
           command: |
             git reset --hard HEAD
-            git checkout master
+            git checkout develop
             git config user.email "jaxx2104+circleci@users.noreply.github.com"
             git config user.name "jaxx2104+circleci"
-            git add dist
+            git add docs
             git commit -m 'export image file'
-            git push origin master
+            git push origin develop
 workflows:
   version: 2
   export:
