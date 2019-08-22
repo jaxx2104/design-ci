@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>icon_40pt@2x</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8126" offset="0%"></stop>
+            <stop stop-color="#FF117E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iOS-App-Icon-Template" transform="translate(-1074.000000, -724.000000)" fill="#000000">
+            <rect x="0" y="0" width="2343" height="1162"></rect>
+        </g>
+        <g id="icon_40pt@2x">
+            <g id="Icon">
+                <rect id="Background" fill="url(#linearGradient-1)" x="0" y="0" width="80" height="80"></rect>
+                <g id="Glyph" stroke-width="1" transform="translate(14.531250, 12.343750)">
+                    <polygon id="Head-Base" fill="#FFFFFF" style="mix-blend-mode: overlay;" points="0 0 25.46875 19.0625 50.9375 0 50.9375 38.125 25.46875 57.1875 0 38.125"></polygon>
+                    <polygon id="Jowl" fill-opacity="0.700000048" fill="#FFFFFF" style="mix-blend-mode: overlay;" points="0 38.125 25.46875 19.0625 50.9375 38.125 25.46875 57.1875"></polygon>
+                    <polygon id="Ears/Nose" fill="#FFFFFF" style="mix-blend-mode: soft-light;" points="0 0 25.46875 57.1875 50.9375 0 25.46875 19.0625"></polygon>
+                    <path d="M0,0 L25.46875,57.1875 L0,9.296875 L0,0 Z M50.9375,0 L50.9375,9.296875 L25.46875,57.1875 L50.9375,0 Z" id="Shadows" fill-opacity="0.25" fill="#000000" style="mix-blend-mode: overlay;"></path>
+                </g>
+                <g id="Smooth-Corners" fill="#000000">
+                    <path d="M0.00099126545,57.6357705 C0.0333594017,65.2206663 0.85777655,68.0428098 2.37915064,70.887532 C3.93157319,73.7903098 6.20969017,76.0684268 9.11246795,77.6208494 C12.0152457,79.1732719 14.8945138,80 22.8346026,80 L22.8346026,80 L0,80 Z M80,57.1653974 L80,80 L57.1653974,80 C65.1054862,80 67.9847543,79.1732719 70.887532,77.6208494 C73.7903098,76.0684268 76.0684268,73.7903098 77.6208494,70.887532 C79.1732719,67.9847543 80,65.1054862 80,57.1653974 L80,57.1653974 Z M80,22.8346026 C80,14.8945138 79.1732719,12.0152457 77.6208494,9.11246795 C76.0684268,6.20969017 73.7903098,3.93157319 70.887532,2.37915064 C67.9847543,0.826728099 65.1054862,-5.36025372e-16 57.1653974,9.22545274e-16 L80,0 Z M0,0 L22.3642295,0.00099126545 C14.7793337,0.0333594017 11.9571902,0.85777655 9.11246795,2.37915064 C6.20969017,3.93157319 3.93157319,6.20969017 2.37915064,9.11246795 C0.826728099,12.0152457 -3.57350248e-16,14.8945138 6.15030183e-16,22.8346026 L0,0 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
