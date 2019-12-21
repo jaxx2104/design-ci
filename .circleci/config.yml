@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: export sketch file
+          name: Export sketch file
           command: |
             brew cask install sketch
             /Applications/Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export artboards src/sketch/*.sketch --formats=jpg,png,svg --output=docs/sketch
@@ -23,9 +23,8 @@ jobs:
       - attach_workspace:
           at: .
       - run:
-          name: push export file
+          name: Push export file
           command: |
-            git reset --hard HEAD
             git checkout $CIRCLE_BRANCH
             git config user.email "jaxx2104+circleci@users.noreply.github.com"
             git config user.name "CircleCI"
